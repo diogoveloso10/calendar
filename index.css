@@ -1,0 +1,100 @@
+.calendar h1 {
+    text-align: center;
+    color: white;
+}
+
+.calendar h2 {
+    color: white;
+    margin-left: 7em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #333333;
+}
+
+.month {
+    display: inline-block;
+}
+
+.month {
+    padding: 3px;
+    width: auto;
+    background: #333333;
+    text-align: center;
+}
+
+.month ul {
+    margin: 4px;
+    padding: 4px;
+    display: inline-block;
+}
+
+.month ul li {
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 2px 0;
+    background-color: rgb(117, 117, 117);
+    border-radius: 8px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 11.5%;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.days {
+    padding: 10px 0;
+    background: rgb(167, 166, 166);
+    margin: 0;
+    border-radius: 8px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 11.5%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #333333;
+    padding: 5px;
+}
+
+.grid-portion {
+    background-color: #333333;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.days .offday {
+    color: rgb(119, 119, 119);
+}
+
+.days .offday_wek_out {
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+}
+
+.days .offday_wek_in {
+    font-weight: bold;
+}
